@@ -24,8 +24,8 @@ function MainComponent() {
 
   return (
     <div className="relative min-h-screen bg-[#23272e] bg-opacity-90 w-full text-white font-inter">
-      <header className="absoulte flex flex-col items-center justify-center p-5 text-center border-[rgb(44,52,68)]">
-        <h1 className="text-3xl font-bold m-0 flex items-center gap-2 flex-col sm:flex-row">
+      <header className="absolute top-0 left-0 w-full flex flex-col items-center justify-center p-5 text-center z-10">
+        <h1 className="text-3xl font-bold flex items-center gap-2 flex-col sm:flex-row z-20 mx-auto">
           <span>Welcome to</span>
           <img
             src="https://ucarecdn.com/52328c1e-7703-42be-b131-eae7b2aa91de/-/format/auto/"
@@ -33,7 +33,7 @@ function MainComponent() {
             className="inline h-[40px]"
           />
         </h1>
-        <p className="text-xl mt-2">
+        <p className="text-xl mt-2 z-20">
           Your 24x7 Destination for All Things Cricket
         </p>
       </header>
